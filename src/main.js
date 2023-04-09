@@ -4,7 +4,7 @@ import { DefaultApolloClient } from '@vue/apollo-composable';
 import App from './app-complete/App.vue';
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3000/api',
+  uri: 'https://remarkable-mooncake-fc9763.netlify.app/api',
 });
 
 const cache = new InMemoryCache();
